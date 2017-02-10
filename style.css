@@ -37,7 +37,7 @@ body {
 
 nav {
   min-width: 100vw;
-  background: linear-gradient(rgb(0,0,0), rgba(0,0,0,0));
+  background: rgba(0,0,0,0.6);
   text-align: right;
   position: fixed;
   z-index: 7;
