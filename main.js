@@ -21,7 +21,8 @@ var portfolio = {
       scrollOffset = $(window).height() / 3;
     }
 
-    $('.navLink').click(function() {
+    $('.navLink').click(function(e) {
+      e.preventDefault();
       if($(this).attr('href') === '#') {
         $('html, body').animate({
            scrollTop: 0
